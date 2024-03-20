@@ -1,0 +1,4 @@
+case_id,slide_id,label,process,status,seg_level,sthresh,mthresh,close,use_otsu,keep_ids,exclude_ids,a_t,a_h,max_n_holes,vis_level,line_thickness,use_padding,contour_fn,bag_size,Pred_0,p_0,Pred_1,p_1
+patient_0,normal_001,normal_tissue,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,6833.0,tumor,0.7630439400672913,normal,0.23695608973503113
+patient_1,normal_002,normal_tissue,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,,nan,,nan,
+patient_2,normal_003,normal_tissue,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,,nan,,nan,
