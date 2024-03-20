@@ -83,7 +83,7 @@ parser.add_argument('--k', type=int, default=10, help='number of folds (default:
 parser.add_argument('--k_start', type=int, default=-1, help='start fold (default: -1, last fold)')
 parser.add_argument('--k_end', type=int, default=-1, help='end fold (default: -1, first fold)')
 parser.add_argument('--results_dir', default='./results', help='results directory (default: ./results)')
-parser.add_argument('--split_dir', type=str, default=None, 
+parser.add_argument('--split_dir', type=str, default='task_1_tumor_vs_normal_100', 
                     help='manually specify the set of splits to use, ' 
                     +'instead of infering from the task and label_frac argument (default: None)')
 parser.add_argument('--log_data', action='store_true', default=True, help='log data using tensorboard')
