@@ -19,7 +19,7 @@ import openslide
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
 def compute_w_loader(file_path, output_path, wsi, model,
- 	batch_size = 8, verbose = 0, print_every=20, pretrained=True, 
+ 	batch_size = 8, verbose = 1, print_every=20, pretrained=True, 
 	custom_downsample=1, target_patch_size=-1):
 	"""
 	args:
@@ -124,6 +124,3 @@ if __name__ == '__main__':
 		features = torch.from_numpy(features)
 		bag_base, _ = os.path.splitext(bag_name)
 		torch.save(features, os.path.join(args.feat_dir, 'pt_files', bag_base+'.pt'))
-
-
-
