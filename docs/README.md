@@ -5,10 +5,10 @@ CLAM repository for the 4th semester of the MSc in Biomedical Engineering
 
 # 1. Setup
 
-Start med at clone CLAM repository fra [https://github.com/mahmoodlab/CLAM/](https://github.com/mahmoodlab/CLAM/blob/master/docs/INSTALLATION.md) til den ønskede mappe
+Start med at clone CLAM repository fra dette repository
 
 ```bash
-git clone https://github.com/mahmoodlab/CLAM.git
+git clone https://github.com/dgatke17/CLAM.git
 ```
 
 Lav et nyt conda environment til CLAM
